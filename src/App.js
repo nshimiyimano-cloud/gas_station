@@ -1,16 +1,7 @@
 import './App.css';
 import TopMenu from './components/menus/TopMenu';
 import MainMenu from './components/menus/MainMenu';
-/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPenNib } from '@fortawesome/free-solid-svg-icons'
-
-*/
-/*
-<FontAwesomeIcon color='blue' icon={faPenNib} />
-      <FontAwesomeIcon icon={faEnvelope} />
-*/
-
-
+import LandingPage from './components/Home/LandingPage';
   
         
 
@@ -19,6 +10,7 @@ function App() {
     <div className="App">
       <TopMenu />
       <MainMenu />
+      <LandingPage />
       
       
 

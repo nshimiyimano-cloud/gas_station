@@ -1,0 +1,46 @@
+
+.top-banner-slideshow{
+    position: relative;
+   overflow: hidden;   
+    height:650px;
+    width: 100%;
+    top: -10px;
+     }
+.top-banner-slideshow img{
+    position: absolute; 
+    object-fit: cover;
+    width:100%;
+    object-position: center;
+    height: 650px;    
+    top: 0px;
+   }
+
+
+
+   .top-banner-slideshow #letTopInSlide{
+  
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #095c91;
+    height: 170px;
+    padding-top: 50px;
+    width: 30em;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.7);
+    left:5em;
+    top: 7em; 
+    z-index: -1;
+   }
+
+
+ .top-banner-slideshow #rightBottomInSlide{
+    position: absolute;
+    border: 8px solid #fff;
+    height: 150px;
+    width: 25em;
+    z-index: 2;
+    background: #095c91;
+    padding: 20px 0 0 10px;
+    bottom: 10em;
+    right: 5em; 
+ }  
