@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import TopMenu from './components/menus/TopMenu';
+import MainMenu from './components/menus/MainMenu';
+/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPenNib } from '@fortawesome/free-solid-svg-icons'
+
+*/
+/*
+<FontAwesomeIcon color='blue' icon={faPenNib} />
+      <FontAwesomeIcon icon={faEnvelope} />
+*/
+
+
+  
+        
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopMenu />
+      <MainMenu />
+      
+      
+
+      
     </div>
   );
 }
