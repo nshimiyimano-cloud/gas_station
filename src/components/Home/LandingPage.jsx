@@ -5,7 +5,7 @@ import { Fade } from "react-slideshow-image";
 
 const fadeImages = [bannnerSlider1,bannnerSlider2];
   const properties = {
-    duration: 2500,
+    duration: 500,
     transitionDuration: 2500,
     infinite: true,
     indicators: false,
@@ -16,7 +16,7 @@ const fadeImages = [bannnerSlider1,bannnerSlider2];
 export default function LandingPage() {
   return (
     <div className='top-banner-slideshow'>
-        <div style={{width:'100%',height:'100%',zIndex:1,position:'absolute',top:'50px',bottom:0,left:0,backgroundColor:'rgba(0, 0, 0, 0.3)' }}></div>
+        <div style={{width:'100%',height:'100%',zIndex:1,position:'absolute',top:'-10px',bottom:0,left:0,backgroundColor:'rgba(0, 0, 0, 0.3)' }}></div>
 
         <div className='d-flex flex-column justify-content-center align-items-center px-5' id='letTopInSlide'>
       <h2 style={{color:'#e11736'}} className='text-center' >Why Gaz Contribution</h2>

@@ -1,16 +1,17 @@
 import './App.css';
-import TopMenu from './components/menus/TopMenu';
-import MainMenu from './components/menus/MainMenu';
 import LandingPage from './components/Home/LandingPage';
+import MemberShip from './components/Home/MemberShip';
   
         
 
 function App() {
   return (
     <div className="App">
-      <TopMenu />
-      <MainMenu />
+      
       <LandingPage />
+      <MemberShip />
+
+     
       
       
 

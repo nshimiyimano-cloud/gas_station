@@ -13,7 +13,7 @@ import { faWhatsappSquare} from "@fortawesome/free-brands-svg-icons"
 
 export default function TopMenu() {
   return (
-    <div className='topmenu_block' style={{borderBottom:'2px solid #888',marginBottom:'5px',height:'30px'}}>
+    <div className='topmenu_block bg-danger' style={{borderBottom:'2px solid #888',marginBottom:'5px',height:'30px'}}>
       <div className='d-flex align-items-center' style={{margin:'5px 0 0 50px'}}>
         <ul className='list-unstyled list-inline'>
           <li className='list-inline-item'>

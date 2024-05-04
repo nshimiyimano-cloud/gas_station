@@ -1,5 +1,6 @@
 @import url("../src/components/menus/main-menu.css");
 @import url("../src/components/Home/landing-page.css");
+@import url("../src//components/Accounts/accounts.css");
 
 
 *{
@@ -17,6 +18,12 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  #footer{    
+    background-image: url("../src/assets/footer_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;        
   }
   
   @media only screen and (max-width: 950px) {
